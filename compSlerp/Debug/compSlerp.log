@@ -1,0 +1,217 @@
+﻿  Main.cpp
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(9): error C2871: 'Math': a namespace with this name does not exist
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(12): error C2653: 'Math': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(12): error C2065: 'Quaternion': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(12): error C2146: syntax error: missing ';' before identifier 'v0'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(12): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(12): error C2065: 'v1': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(13): error C2653: 'MathX': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(13): error C2065: 'XQuaternion': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(13): error C2146: syntax error: missing ';' before identifier 'v2'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(13): error C3861: 'v2': identifier not found
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(13): error C3861: 'v3': identifier not found
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(14): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(15): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(16): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(17): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(19): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(20): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(21): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(22): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2653: 'Math': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2065: 'Quaternion': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2146: syntax error: missing ';' before identifier 'result1'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2065: 'result1': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2065: 'v0': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C2065: 'v1': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(24): error C3861: 'slerp1': identifier not found
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2653: 'MathX': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2065: 'XQuaternion': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2146: syntax error: missing ';' before identifier 'result2'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2065: 'result2': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2065: 'v2': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C2065: 'v3': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(25): error C3861: 'slerp2': identifier not found
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(27): error C2039: 'cout': is not a member of 'std'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(27): error C2065: 'cout': undeclared identifier
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(30): error C2653: 'Math': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(30): error C2146: syntax error: missing ';' before identifier 'slerp1'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(30): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(30): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(70): error C2653: 'MathX': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(70): error C2146: syntax error: missing ';' before identifier 'slerp2'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(70): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\main.cpp(70): error C2447: '{': missing function header (old-style formal list?)
+  Math.cpp
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(21): error C2871: 'Math': a namespace with this name does not exist
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): error C2653: 'Quaternion': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): error C2146: syntax error: missing ';' before identifier 'Zero'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(28): error C2143: syntax error: missing ';' before '&'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(28): error C2086: 'const int Quaternion': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(24): note: see declaration of 'Quaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(28): error C2825: 'Quaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(28): error C2510: 'Quaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(29): error C2059: syntax error: '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(29): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\math.cpp(29): error C2447: '{': missing function header (old-style formal list?)
+  MathX.cpp
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(4): error C2871: 'MathX': a namespace with this name does not exist
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(6): error C2143: syntax error: missing ';' before '<cv-qualifer>'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(6): error C2146: syntax error: missing ';' before identifier 'kaTranslationMask'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(7): error C2143: syntax error: missing ';' before '<cv-qualifer>'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(7): error C2086: 'int _MM_ALIGN16': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(6): note: see declaration of '_MM_ALIGN16'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(7): error C2146: syntax error: missing ';' before identifier 'kaIdentityMatrix'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): error C2146: syntax error: missing ';' before identifier 'sm_kxUnitX'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): error C2146: syntax error: missing ';' before identifier 'sm_kxUnitY'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(13): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): error C2146: syntax error: missing ';' before identifier 'sm_kxUnitZ'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(14): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): error C2146: syntax error: missing ';' before identifier 'sm_kxUnitW'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(15): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateX'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(16): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateY'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(17): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateZ'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(18): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateW'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(19): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateXYZ'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(20): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): error C2146: syntax error: missing ';' before identifier 'sm_kxNegateXYZW'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(21): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): error C2146: syntax error: missing ';' before identifier 'sm_kxOne'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(22): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): error C2146: syntax error: missing ';' before identifier 'sm_kxTwo'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(23): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C2653: 'XVector': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C2086: 'const int __m128': redefinition
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(12): note: see declaration of '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C2146: syntax error: missing ';' before identifier 'sm_kxTranslationMask'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C2146: syntax error: missing ')' before identifier '__m128'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(24): error C2059: syntax error: ')'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): error C2653: 'XQuaternion': is not a class or namespace name
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): error C2146: syntax error: missing ';' before identifier 'Zero'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: The initializer contains too many elements
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(28): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(28): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(29): error C2146: syntax error: missing ')' before identifier 'x'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(34): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(34): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(43): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(43): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(43): error C2373: 'XQuaternion': redefinition; different type modifiers
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: see declaration of 'XQuaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(43): error C2146: syntax error: missing ';' before identifier '*'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(46): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(46): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(62): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(62): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(62): error C2373: 'XQuaternion': redefinition; different type modifiers
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: see declaration of 'XQuaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(62): error C2146: syntax error: missing ';' before identifier '+'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(65): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(65): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(72): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(72): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(72): error C2373: 'XQuaternion': redefinition; different type modifiers
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: see declaration of 'XQuaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(72): error C2146: syntax error: missing ';' before identifier '-'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(75): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(75): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(82): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(82): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(82): error C2373: 'XQuaternion': redefinition; different type modifiers
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: see declaration of 'XQuaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(82): error C2146: syntax error: missing ';' before identifier '*'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(85): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(85): error C2447: '{': missing function header (old-style formal list?)
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2143: syntax error: missing ';' before '&'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2373: 'XQuaternion': redefinition; different type modifiers
+  z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(26): note: see declaration of 'XQuaternion'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2825: 'XQuaternion': must be a class or namespace when followed by '::'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2510: 'XQuaternion': left of '::' must be a class/struct/union
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2059: syntax error: '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2143: syntax error: missing ';' before '{'
+z:\igmprofile\desktop\slerpv2\compslerp\compslerp\mathx.cpp(91): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
