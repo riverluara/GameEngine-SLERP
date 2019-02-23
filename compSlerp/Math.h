@@ -100,7 +100,7 @@ namespace Math
 		/// <param name="Angle">The angle of the vector axis."</param>
 		/// <returns>A reference to this quaternion.</returns>
 		
-		const Quaternion& Normalize(void) {}
+		const Quaternion& Normalize(void);
 		/// <summary>
 		///   Sets a quaternion using Euler angles.
 		/// </summary>
@@ -135,6 +135,7 @@ namespace Math
 			x = -x;
 			y = -y;
 			z = -z;
+			w = -w;
 		}
 
 		/// <summary>
@@ -149,7 +150,7 @@ namespace Math
 		f32             z;
 		f32             w;
 	};
-	f32 Dot(const Quaternion& a, const Quaternion& b)
+	inline f32 Dot(const Quaternion& a, const Quaternion& b)
 	{
 		return b.x * a.x + b.y * a.y + b.z * a.z + b.w * a.w;
 	}

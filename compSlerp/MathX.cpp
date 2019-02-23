@@ -1,6 +1,7 @@
+#include "pch.h"
 #include "DataTypes.h"
 #include "MathX.h"
-#include "pch.h"
+
 using namespace MathX;
 
 _MM_ALIGN16 static const u32 kaTranslationMask[4] = { 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0 };
@@ -90,17 +91,12 @@ XQuaternion XQuaternion::operator*(
 }
 XQuaternion& XQuaternion:: Normalize(void) {
 
-	f32 Mag = Magnitude();
-	if (Mag != 0.0f) {
-
-		f32 Inv = 1.0f / Mag;
-		__m128 scalar = _mm_set1_ps(Inv);
-
-		m_Vector = _mm_mul_ps(m_Vector, scalar);
+	__m128 Mag = Magnitude();
+	
+	m_Vector = _mm_div_ps(m_Vector, Mag);
 	
 		
 	
-	}
 	return *this;
 
 }

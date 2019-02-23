@@ -214,7 +214,7 @@ namespace MathX {
 		XQuaternion operator-(const XQuaternion& a) const;
 		XQuaternion operator*(f64& a) const;
 		
-		XQuaternion& Normalize(void) {}
+		XQuaternion& Normalize(void);
 		/// <summary>
 		///   Functionality for multiplying two quaternions with assignment.
 		/// </summary>
@@ -230,15 +230,14 @@ namespace MathX {
 		///   Calculates the magnitude of this quaternion.
 		/// </summary>
 		/// <returns>The magnitude.</returns>
-		f32 Magnitude(void) const
+		__m128 Magnitude(void) const
 		{
 			__m128 t;
 			__m128 sq = _mm_mul_ps(m_Vector, m_Vector);
 			t = _mm_add_ps(sq, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 1, 0, 2)));
 			t = _mm_add_ps(t, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 0, 2, 1)));
-			f32 s;
-			_mm_store_ss(&s, _mm_sqrt_ps(t));
-			return s;
+			
+			return t;
 		}
 
 		/// <summary>
@@ -246,7 +245,7 @@ namespace MathX {
 		/// </summary>
 		XQuaternion& Conjugate(void)
 		{
-			m_Vector = _mm_xor_ps(m_Vector, sm_kxNegateXYZ);
+			m_Vector = _mm_xor_ps(m_Vector, sm_kxNegateXYZW);
 			return *this;
 		}
 
@@ -258,11 +257,12 @@ namespace MathX {
 
 		static const XQuaternion Zero;
 	};
-	f32 Dot(const XQuaternion& a, const XQuaternion& b)
+	inline f32 Dot(const XQuaternion& a, const XQuaternion& b)
 	{
 		const int mask = 0xFF;
 		__m128 result = _mm_dp_ps(a, b, mask);
 		return result.m128_f32[0];
+		
 	}
 }
 

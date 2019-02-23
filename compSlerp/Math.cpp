@@ -14,14 +14,15 @@
 
 
 
-
+#include "pch.h"
 #include "DataTypes.h"
 #include "Math.h"
-#include "pch.h"
+
 using namespace Math;
 
 
 const Quaternion Quaternion::Zero = { 0.0f, 0.0f, 0.0f, 1.0f };
+
 
 
 

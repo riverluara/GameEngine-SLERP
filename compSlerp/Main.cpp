@@ -1,11 +1,15 @@
 // CompSLERP.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-
+#include "pch.h"
 #include <iostream>
 #include "Math.h"
 #include "MathX.h"
-#include "pch.h"
+#include "time.h"
+
+
+Math::Quaternion slerp1(Math::Quaternion v0, Math::Quaternion v1, double t);
+MathX::XQuaternion slerp2(MathX::XQuaternion v0, MathX::XQuaternion v1, double t);
 
 int main()
 {
@@ -16,15 +20,40 @@ int main()
 	v0.z = 500;
 	v0.w = 500;
 
-	v0.x = 300;
-	v0.y = 300;
-	v0.z = 300;
-	v0.w = 300;
+	v1.x = 300;
+	v1.y = 300;
+	v1.z = 300;
+	v1.w = 300;
+	int length = 1000000;
+	clock_t start1, end1, start2, end2;
+	Math::Quaternion result1;
+	MathX::XQuaternion result2;
+	start1 = clock();
+	for (int i = 0; i < length; i++)
+	{
+		
+		
+		result1 = slerp1(v0, v1, 1);
+		
+	}
+	end1 = clock();
+	
+	start2 = clock();
+	for (int i = 0; i < length; i++)
+	{
+		
+		 result2 = slerp2(v2, v3, 1);
+		
+	}
+	end2 = clock();
 
-	Math::Quaternion result1 = slerp1(v0, v1, 60);
-	MathX::XQuaternion result2 = slerp2(v2, v3, 60);
+	
 
-	std::cout << "Hello World!\n";
+	std::cout << "SLOW ";
+	std::cout << (double)(end1 - start1)/CLOCKS_PER_SEC << std::endl;
+	std::cout << "FAST ";
+	std::cout << (double)(end2 - start2) / CLOCKS_PER_SEC << std::endl;
+
 }
 
 Math::Quaternion slerp1(Math::Quaternion v0, Math::Quaternion v1, double t) {
