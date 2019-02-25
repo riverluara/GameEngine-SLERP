@@ -89,14 +89,18 @@ XQuaternion XQuaternion::operator*(
 	__m128 result = _mm_mul_ps(m_Vector, scalar);
 	return XQuaternion(result);
 }
-XQuaternion& XQuaternion:: Normalize(void) {
+void XQuaternion:: Normalize(void) {
 
+	/*__m128 t;
+	__m128 sq = _mm_mul_ps(m_Vector, m_Vector);
+	t = _mm_add_ps(sq, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 1, 0, 2)));
+	t = _mm_add_ps(t, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 0, 2, 1)));*/
 	
-	
-	m_Vector = _mm_div_ps(m_Vector, Magnitude());
+	//m_Vector = _mm_div_ps(m_Vector, _mm_sqrt_ps(t));
+	m_Vector = _mm_mul_ps(m_Vector, _mm_rsqrt_ps(_mm_dp_ps(m_Vector, m_Vector, 0x7F)));
 	
 		
 	
-	return *this;
+	//return *this;
 
 }

@@ -6,7 +6,7 @@
 #include "Math.h"
 #include "MathX.h"
 #include "time.h"
-
+#include <intrin.h>
 
 Math::Quaternion slerp1(Math::Quaternion v0, Math::Quaternion v1, double t);
 MathX::XQuaternion slerp2(MathX::XQuaternion v0, MathX::XQuaternion v1, double t);
@@ -74,15 +74,15 @@ Math::Quaternion slerp1(Math::Quaternion v0, Math::Quaternion v1, double t) {
 		dot = -dot;
 	}
 
-	const double DOT_THRESHOLD = 0.9995;
-	if (dot > DOT_THRESHOLD) {
-		// If the inputs are too close for comfort, linearly interpolate
-		// and normalize the result.
+	//const double DOT_THRESHOLD = 0.9995;
+	//if (dot > DOT_THRESHOLD) {
+	//	// If the inputs are too close for comfort, linearly interpolate
+	//	// and normalize the result.
 
-		Math::Quaternion result = v0 + (v1 - v0) * t;
-		result.Normalize();
-		return result;
-	}
+	//	Math::Quaternion result = v0 + (v1 - v0) * t;
+	//	result.Normalize();
+	//	return result;
+	//}
 
 	// Since dot is in range [0, DOT_THRESHOLD], acos is safe
 	double theta_0 = acos(dot);        // theta_0 = angle between input vectors
@@ -114,15 +114,15 @@ MathX::XQuaternion slerp2(MathX::XQuaternion v0, MathX::XQuaternion v1, double t
 		dot = -dot;
 	}
 
-	const double DOT_THRESHOLD = 0.9995;
-	if (dot > DOT_THRESHOLD) {
-		// If the inputs are too close for comfort, linearly interpolate
-		// and normalize the result.
+	//const double DOT_THRESHOLD = 0.9995;
+	//if (dot > DOT_THRESHOLD) {
+	//	// If the inputs are too close for comfort, linearly interpolate
+	//	// and normalize the result.
 
-		MathX::XQuaternion result = v0 + (v1 - v0) * t;
-		result.Normalize();
-		return result;
-	}
+	//	MathX::XQuaternion result = v0 + (v1 - v0) * t;
+	//	result.Normalize();
+	//	return result;
+	//}
 
 	// Since dot is in range [0, DOT_THRESHOLD], acos is safe
 	double theta_0 = acos(dot);        // theta_0 = angle between input vectors
@@ -133,7 +133,7 @@ MathX::XQuaternion slerp2(MathX::XQuaternion v0, MathX::XQuaternion v1, double t
 	double s0 = cos(theta) - dot * sin_theta / sin_theta_0;  // == sin(theta_0 - theta) / sin(theta_0)
 	double s1 = sin_theta / sin_theta_0;
 
-	return (v0 * s0) + (v1 * s1);
+	return _mm_add_ps(_mm_mul_ps(_mm_set1_ps(s0), v0), _mm_mul_ps(_mm_set1_ps(s1),v1));
 }
 
 

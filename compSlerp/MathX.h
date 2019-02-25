@@ -214,7 +214,7 @@ namespace MathX {
 		XQuaternion operator-(const XQuaternion& a) const;
 		XQuaternion operator*(f64& a) const;
 		
-		XQuaternion& Normalize(void);
+		void Normalize(void);
 		/// <summary>
 		///   Functionality for multiplying two quaternions with assignment.
 		/// </summary>
@@ -230,23 +230,23 @@ namespace MathX {
 		///   Calculates the magnitude of this quaternion.
 		/// </summary>
 		/// <returns>The magnitude.</returns>
-		__m128 Magnitude(void) const
+		f32 Magnitude(void) const
 		{
 			__m128 t;
 			__m128 sq = _mm_mul_ps(m_Vector, m_Vector);
 			t = _mm_add_ps(sq, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 1, 0, 2)));
 			t = _mm_add_ps(t, _mm_shuffle_ps(sq, sq, _MM_SHUFFLE(3, 0, 2, 1)));
 			
-			return t;
+			return _mm_sqrt_ps(t).m128_f32[0];
 		}
 
 		/// <summary>
 		///   Calculates the conjugate or inverse of a quaternion.
 		/// </summary>
-		XQuaternion& Conjugate(void)
+		void Conjugate(void)
 		{
 			m_Vector = _mm_xor_ps(m_Vector, sm_kxNegateXYZW);
-			return *this;
+			//return *this;
 		}
 
 		
