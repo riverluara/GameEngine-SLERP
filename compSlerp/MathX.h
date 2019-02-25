@@ -259,9 +259,9 @@ namespace MathX {
 	};
 	inline f32 Dot(const XQuaternion& a, const XQuaternion& b)
 	{
-		const int mask = 0xFF;
-		__m128 result = _mm_dp_ps(a, b, mask);
-		return result.m128_f32[0];
+	/*	const int mask = 0xFF;
+		__m128 result = _mm_dp_ps(a, b, mask);*/
+		return _mm_dp_ps(a, b, 0xFF).m128_f32[0];
 		
 	}
 }

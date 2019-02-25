@@ -91,9 +91,9 @@ XQuaternion XQuaternion::operator*(
 }
 XQuaternion& XQuaternion:: Normalize(void) {
 
-	__m128 Mag = Magnitude();
 	
-	m_Vector = _mm_div_ps(m_Vector, Mag);
+	
+	m_Vector = _mm_div_ps(m_Vector, Magnitude());
 	
 		
 	
